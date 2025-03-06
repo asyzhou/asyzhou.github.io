@@ -1,0 +1,86 @@
+/* Screenplay styling */
+.screenplay {
+    padding: 1rem 0;
+}
+
+.scene-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.action {
+    margin-bottom: 1rem;
+}
+
+.character {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.dialogue {
+    width: 75%;
+    margin: 0 auto 1rem auto;
+    padding: 0 1rem;
+}
+
+.parenthetical {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.scene-number {
+    float: right;
+    font-weight: bold;
+}
+
+.transition {
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+.revision {
+    color: #3366cc;
+    /* Blue for revisions */
+}
+
+.script-note {
+    background-color: #ffffcc;
+    /* Light yellow background */
+    border: 1px dashed #ccc;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color: #cc0000;
+    /* Red for deleted text */
+}
+
+.page-break {
+    border-top: 1px dashed #999;
+    margin: 2rem 0;
+    padding-top: 0.5rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.8rem;
+}
+
+/* Page transitions */
+.page-container {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.page-transition {
+    opacity: 0;
+}

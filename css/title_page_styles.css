@@ -1,0 +1,93 @@
+/* Title Page Styles */
+.title-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 2rem;
+    text-align: center;
+}
+
+.title-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.author-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    font-size: 0.9rem;
+    margin-top: 4rem;
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: pre-wrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    position: relative;
+    text-align: left;
+}
+
+.blinking-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.2em;
+    background-color: #000;
+    animation: blink 1s step-end infinite;
+    vertical-align: text-bottom;
+    margin-bottom: -2px;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* 
+.enter-button {
+    margin-top: 3rem;
+    padding: 0.5rem 2rem;
+    background: none;
+    border: 1px solid #000;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.5s ease, background-color 0.3s;
+}
+
+.enter-button:hover {
+    background-color: #f0f0f0;
+}
+
+.enter-button.visible {
+    opacity: 1;
+} */
+
+.hidden {
+    display: none;
+}

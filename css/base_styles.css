@@ -1,0 +1,156 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    color: #000;
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Navigation bar */
+.nav-container {
+    position: relative;
+    margin-bottom: rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a,
+.nav-right a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.menu-container {
+    position: relative;
+    margin-right: 1rem;
+}
+
+.menu-icon {
+    cursor: pointer;
+    position: relative;
+}
+
+.toc {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -10px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 1rem;
+    z-index: 100;
+    min-width: 180px;
+    /* Add a small hidden area to help with hovering */
+    margin-top: 5px;
+}
+
+/* This creates an invisible bridge between the icon and the menu */
+.hover-bridge {
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+}
+
+/* Show menu on hover of either the icon or the menu itself */
+.menu-container:hover .toc,
+.toc:hover {
+    display: block;
+}
+
+.toc-title {
+    /* font-weight: bold; */
+    margin-bottom: 0.75rem;
+    /* text-align: center; */
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    padding: 0 0.5rem 0.5rem;
+}
+
+.toc ul {
+    list-style-type: none;
+}
+
+.toc li {
+    margin: 0.5rem 0;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 0.2rem 0;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Page transitions */
+.page-container {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.page-transition {
+    opacity: 0;
+}
+
+
+/* Photo and caption styling */
+.photo-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.photo {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.photo-caption {
+    margin-top: 0.75rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+    color: #cc0000;
+    /* Red text for the caption */
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
