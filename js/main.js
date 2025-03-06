@@ -7,8 +7,8 @@ import project2Page from '../pages/project2.js';
 // Pages object with imported content
 const pages = {
     home: homePage,
-    dance: dancePage,
     self: selfPage,
+    dance: dancePage,
     project1: project1Page,
     project2: project2Page
 };
