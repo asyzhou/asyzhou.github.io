@@ -7,25 +7,26 @@ const homePage = `
 
 <div class="character">AZURE ZHOU</div>
 <div class="dialogue">
-  Hi! I'm a senior at Stanford University studying math and computer science. I'm interested in lots of things, including games, literature, dance, AI ethics, and quantitative finance.
+  Hi! I'm a senior at Stanford University studying math and computer science. I'm interested in a lot of things, including games, literature, dance, AI ethics, and quantitative finance.
 </div>
 
 <div class="transition">CUT TO:</div>
 
 <div class="action">
-  Present day. I'm in &lt;Palo Alto&gt;, wrapping up my second to last quarter of school. Time flies!
+  Present day. I'm in &lt;Palo Alto&gt;, wrapping up my last quarter of school. Time flies!
 </div>
 
 <div class="character">CURRENT</div>
 <div class="dialogue">
-  - This quarter, I'm taking MATH 236, MATH 238, CS 111, CS 234, ARTHIST 238, and CLASSICS 212. </br>
-  - I'm currently listening to &lt;Elephant Gym&gt; and reading &lt;Canvases and Careers&gt; + &lt;Creation Lake&gt;. </br>
-  - I recently performed at DV8's annual EnCounter Culture and walked Stanford to Sea!
+  - This quarter, I'm taking just enough classes to graduate (haha). </br>
+  - I'm currently listening to &lt;Niwamori Piano&gt; and reading &lt;Number Go Up&gt;. </br>
+  - I recently traveled to Aruba for spring break!
 </div>
 
 <div class="character">UPCOMING</div>
 <div class="dialogue">
-  - Once I get through my projects and finals, I'll be OOO in Aruba over spring break!
+  - I'm performing at Hipnotized in a few weeks. My last performance at Stanforf! </br?
+  - I'm graduating in June.
 </div>
 
 <div class="action">

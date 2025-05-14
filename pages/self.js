@@ -1,5 +1,5 @@
 const selfPage = `
-<div class="scene-heading">EXT. ACCOUNT OF SELF - SUNSET <span class="scene-number">3</span></div>
+<div class="scene-heading">EXT. ACCOUNT OF SELF - SUNSET <span class="scene-number">6</span></div>
 
 <div class="action">
   Azure Zhou is an incoming trader at Citadel Securities. 
@@ -10,7 +10,7 @@ const selfPage = `
 
   While in school, Azure was a part of Legacy and DV8 dance teams, performing at campus events and competing at World of Dance. 
   She hosted a live weekly music show on 90.1FM, Stanford KZSU, and served for a year as the radio station's program director.
-  Other things she's done include writing a 50,000 word novel in November 2024 in English 190E: Novel-writing Intensive.
+  Other things she did during her school career include hosting home cafes and writing a 50,000 word novel in November 2024 in English 190E: Novel-writing Intensive.
 </div>
 
 <div class="action">

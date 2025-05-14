@@ -9,10 +9,7 @@ const titleText = `
 
 
                         CONTACT:
-                        amysz{at}stanford{dot}edu
-
-                        project of a life
-`;
+                        amysz{at}stanford{dot}edu`;
 
 const typewriterElement = document.getElementById('titleTypewriter');
 const cursorElement = document.getElementById('cursor');

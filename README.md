@@ -1,31 +1,22 @@
 # asyzhou.github.io
 
+# Wednesday, May 14
+Let's try to finish this before the year ends! More pages filled in, added dance links.
+
 # Wednesday, February 26
-My first portfolio is created!
+My first portfolio is created! Home and about page added.
 
 # To do
-- make it more visual! add some images
-- include transitions and other fun things
-
 opening page
-- insert contact info
 - align cursor
-- make scripted bold
-
-- add a footer with contact info
 - add resume/social media links?
 
-
-pages to add
-- low resource project
-- nlp ethics project
-- rl project
+pages to work on
+- books (change to a scrollable journal type layout)
+- projects (low resource, nlp ethics)
 - travel
-- reading list
-- dance
-- misc (book cover e.g.)
 
-switch self page to less of a story probably, more like lists
+- convert pages to actual pages/so u can refresh
 
 
 Credit to Mulholland Drive and Eternal Sunshine and court proceedings for inspiring the format of this website.

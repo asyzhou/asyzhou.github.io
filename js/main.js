@@ -1,20 +1,22 @@
 import homePage from '../pages/home.js';
 import dancePage from '../pages/dance.js';
 import selfPage from '../pages/self.js';
+import readingPage from '../pages/reading.js';
+import travelPage from '../pages/travel.js';
 import project1Page from '../pages/project1.js';
-import project2Page from '../pages/project2.js';
 
 // Pages object with imported content
 const pages = {
     home: homePage,
-    self: selfPage,
     dance: dancePage,
+    reading: readingPage,
+    travel: travelPage,
     project1: project1Page,
-    project2: project2Page
+    self: selfPage,
 };
 
 // Page order for navigation
-const pageOrder = ['home', 'self']; //'dance', 'project1', 'project2', 
+const pageOrder = ['home', 'dance', 'reading', 'travel', 'project1', 'self',];
 
 // Current page tracking
 let currentPageIndex = 0;
