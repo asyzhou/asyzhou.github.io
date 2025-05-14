@@ -173,17 +173,7 @@ const dancePage = `
     </div>
   </div>
 
-
 </div>
-
-<div class="transition">FADE TO</div>
-
-<div class="character">CHOREOGRAPHER</div>
-<div class="parenthetical">(thoughtfully)</div>
-<div class="dialogue">
-  Each piece is a conversation between music, movement, and emotion. I continue to explore the boundaries of expression through dance.
-</div>
-
 <style>
   .dance-video-grid {
     display: grid;
